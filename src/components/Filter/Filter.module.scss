@@ -1,0 +1,41 @@
+.filterContainer {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-grow: 1;
+}
+  
+  .filterLabel {
+    font-weight: 600;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .filterSelect {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: white;
+    cursor: pointer;
+    min-width: 260px;
+  
+    &:focus {
+      outline: 2px solid #0066cc;
+      outline-offset: 2px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .filterContainer {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+      max-width: 400px;
+    }
+  
+    .filterSelect {
+      width: 100%;
+    }
+  }
