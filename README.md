@@ -24,7 +24,7 @@
 
 ## Live Demo
 
-[Othaim-Ecommerce-App-Link](https://othaim-task.vercel.app/)
+[Healthcare-Booking-App-Link](https://doctor-booking-lemon.vercel.app/)
 
 
 ## App-structure
