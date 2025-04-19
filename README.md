@@ -14,6 +14,7 @@
 ## Table of contents
 * [Live Demo](#live-demo)
 * [App Structure](#app-structure)
+* [Features](#features)
 * [Setup](#setup)
 * [OpenSourse](#opensourse)
 * [Pictures](#pictures)
@@ -67,16 +68,16 @@ Install the main source of the project :
 1. Clone the repository:
 ```bash
 git clone https://github.com/Mohamedadelsaleh/doctor-booking.git
-cd doctor-bookin
+cd doctor-booking
 ```
 
-2. After downloading project files open them in your IDE then in open Terminal and Install dependencies:
+2. After downloading project files, open them in your IDE, then open Terminal and install dependencies:
 
 ```bash
 npm install 
 ```
 
-3. Start development server:
+3. Start the development server:
 
 ```bash
 npm start 
@@ -85,12 +86,12 @@ Open http://localhost:3000 in your browser.
 
 ## OpenSourse
 
-  It's an open-source project You can edit on it and develop what you want.
+  It's an open-source project. You can edit on it and develop what you want.
 
   Architecture Decisions
 
     State Management:
-    Chose Zustand over Redux for simpler booking management needs
+    Choose Zustand over Redux for simpler booking management needs
 
     Styling:
     Used SCSS modules for component-scoped styles and maintainability
@@ -100,6 +101,7 @@ Open http://localhost:3000 in your browser.
 
 ## Pictures
 
+![screencapture-localhost-3000-2025-04-20-01_28_40](https://github.com/user-attachments/assets/330ecf34-85df-4b7a-80f6-14027ff5aabe)
 ![screencapture-localhost-3000-2025-04-20-01_29_12](https://github.com/user-attachments/assets/7a00b085-4764-46af-9d64-26a7e939cff3)
 
 ## Authors
