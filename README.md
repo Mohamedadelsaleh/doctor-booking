@@ -17,6 +17,8 @@
 * [Features](#features)
 * [Setup](#setup)
 * [OpenSourse](#opensourse)
+* [How I used AI tools](#how-i-used-ai-tools)
+* [Known limitations or next steps](#know-limitations-or-next-steps)
 * [Pictures](#pictures)
 * [Authors](#authors)
 * [Built With](#built-with)
@@ -86,7 +88,7 @@ Open http://localhost:3000 in your browser.
 
 ## OpenSourse
 
-  It's an open-source project. You can edit on it and develop what you want.
+  It's an open-source project. You can edit it and develop what you want.
 
   Architecture Decisions
 
@@ -98,6 +100,39 @@ Open http://localhost:3000 in your browser.
     
     Offline Support:
     Doctors details data 
+
+## How I used AI tools
+
+1. Initial Scaffolding:
+  
+- Generated mock data with AI suggestions for realistic doctor profiles
+
+2. Code Optimization:
+
+- Optimized accessibility attributes with AI suggestions
+
+## Known limitations or next steps
+
+1. Backend Integration:
+
+- Connect to actual API endpoints
+- Implement authentication
+
+2. Enhanced Features:
+
+- Add calendar view for appointment selection
+- Implement more advanced filtering (location, availability)
+- Add doctor details view
+
+3. Improvements:
+
+- Implement loading states
+- Add error handling
+
+4. Deployment:
+
+- Dockerize application
+- CI/CD pipeline setup
 
 ## Pictures
 
