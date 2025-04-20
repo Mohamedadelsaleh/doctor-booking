@@ -18,7 +18,7 @@
 * [Setup](#setup)
 * [OpenSourse](#opensourse)
 * [How I used AI tools](#how-i-used-ai-tools)
-* [Known limitations or next steps](#know-limitations-or-next-steps)
+* [Known limitations or next steps](#known-limitations-or-next-steps)
 * [Pictures](#pictures)
 * [Authors](#authors)
 * [Built With](#built-with)
@@ -131,7 +131,7 @@ Open http://localhost:3000 in your browser.
 
 4. Deployment:
 
-- Dockerize application
+- Dockerize the application
 - CI/CD pipeline setup
 
 ## Pictures
