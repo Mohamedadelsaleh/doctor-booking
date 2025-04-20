@@ -1,9 +1,8 @@
 import { Doctor } from '../types/doctor';
 
-// Helper function to generate random availability slots
 const generateAvailability = () => {
   const times = [];
-  const startHour = 8 + Math.floor(Math.random() * 2); // 8 or 9 AM start
+  const startHour = 8 + Math.floor(Math.random() * 2);
   const intervals = ['00', '30'];
   
   for (let i = 0; i < 4; i++) {

@@ -30,7 +30,6 @@ const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<number>(1);
   const doctorsPerPage = 6;
 
-  // Load mock data on initial render
   useEffect(() => {
     setDoctors(mockDoctors);
   }, [setDoctors]);
@@ -38,7 +37,7 @@ const App: React.FC = () => {
   const handleBookAppointment = (doctor: Doctor) => {
     setSelectedDoctor(doctor);
     openModal();
-    setCurrentPage(1); // Reset to first page when booking
+    setCurrentPage(1);
   };
 
   const handleConfirmAppointment = (time: string) => {
@@ -64,13 +63,11 @@ const App: React.FC = () => {
       doctor.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
-  // Calculate pagination
   const indexOfLastDoctor = currentPage * doctorsPerPage;
   const indexOfFirstDoctor = indexOfLastDoctor - doctorsPerPage;
   const currentDoctors = filteredDoctors.slice(indexOfFirstDoctor, indexOfLastDoctor);
   const totalPages = Math.ceil(filteredDoctors.length / doctorsPerPage);
 
-  // Reset to page 1 when filters change
   useEffect(() => {
     setCurrentPage(1);
   }, [selectedSpecialty, searchTerm]);
